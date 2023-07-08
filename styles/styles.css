@@ -82,7 +82,7 @@ header nav .nav-logo .logo-special:hover {
     height: 85vh;
     display: flex;
     padding: 50px 20px 0px 210px;
-    background: url("/images/header_bg.png");
+    background: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 740px 430px;
