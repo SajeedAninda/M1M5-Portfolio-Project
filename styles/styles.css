@@ -82,13 +82,14 @@ header nav .nav-logo .logo-special:hover {
     height: 85vh;
     display: flex;
     padding: 50px 20px 0px 210px;
-    background:url("/images/header_bg.png");
+    background: url("/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 740px 430px;
     background-color: #FFF8F3;
 }
-.hero-left{
+
+.hero-left {
     width: 60%;
     padding-top: 35px;
 }
@@ -153,63 +154,73 @@ header nav .nav-logo .logo-special:hover {
     color: white;
 }
 
-.hero-right{
+.hero-right {
     width: 40%;
 }
-.hero-right img{
-width: 390px;
-padding-right: 20px;
-cursor: pointer;
+
+.hero-right img {
+    width: 390px;
+    padding-right: 20px;
+    cursor: pointer;
 }
 
 /* ABOUT ME SECTION  */
-.about-me{
+.about-me {
     background-color: #FFF8F3;
     padding: 90px 90px;
     width: 70%;
     margin: 70px auto;
     text-align: center;
 }
-.about-me-head h3{
+
+.about-me-head h3 {
     font-size: 1.6rem;
     font-weight: 700;
     color: #181818;
     margin-bottom: 25px;
 }
-.about-me-para p{
+
+.about-me-para p {
     color: #757575;
     text-align: center;
     margin-bottom: 20px;
 }
-.about-me-details{
+
+.about-me-details {
     display: flex;
     justify-content: space-evenly;
 }
-.about-me-details p{
+
+.about-me-details p {
     color: #757575;
     margin-bottom: 8px;
 }
-.about-me-details h4{
+
+.about-me-details h4 {
     color: #181818;
 }
-.what-i-do{
+
+.what-i-do {
     padding: 10px 90px 0px 90px;
     width: 70%;
     margin: 70px auto 0px auto;
     text-align: center;
 }
-.what-i-do h3{
+
+.what-i-do h3 {
     font-size: 1.6rem;
     font-weight: 700;
     color: #181818;
     margin-bottom: 25px;
 }
-.what-i-do > p{
+
+.what-i-do>p {
     color: #757575;
     text-align: center;
     margin-bottom: 20px;
 }
-.what-i-do-boxes{
+
+.what-i-do-boxes {
     display: flex;
     justify-content: space-evenly;
     width: 70%;
@@ -218,15 +229,72 @@ cursor: pointer;
     gap: 20px;
     text-align: left;
 }
-.box{
+
+.box {
     padding: 30px;
     box-shadow: 2px 2px 15px rgba(128, 128, 128, 0.205);
 }
-.box img{
-width: 40px;
-margin-bottom: 25px;
+
+.box img {
+    width: 40px;
+    margin-bottom: 25px;
 }
-.box h4{
+
+.box h4 {
     color: #181818;
     margin-bottom: 15px;
+}
+
+/* Summary of Resume  */
+.resume-summary {
+    padding: 10px 0px;
+    width: 70%;
+    margin: 70px auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.resume-summary>h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 80px;
+}
+
+.resume-summary-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 40px;
+}
+
+.summary-left , .summary-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.summary-left h3,
+h4 , .summary-right h3,
+h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #181818;
+}
+.summary-left, .summary-right h4{
+    margin-bottom: 5px;
+}
+.summary-left h6, .summary-right h6{
+    color: #474747;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.summary-left p , .summary-right p{
+    color: #757575;
+    font-size: 0.8rem;
+}
+.summary-left-2, .summary-right-2{
+    border-top: 1px solid grey;
+    padding-top: 20px;
 }
