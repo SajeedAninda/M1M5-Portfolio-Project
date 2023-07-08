@@ -413,3 +413,9 @@ input[type="submit"] {
     font-weight: 700;
     cursor: pointer;
 }
+input[type="submit"]:hover{
+    border: 1px solid #FD6E0A;
+    background-color: white;
+    color: #FD6E0A;
+    transition: 0.15s;
+}
