@@ -192,3 +192,41 @@ cursor: pointer;
 .about-me-details h4{
     color: #181818;
 }
+.what-i-do{
+    padding: 10px 90px 0px 90px;
+    width: 70%;
+    margin: 70px auto 0px auto;
+    text-align: center;
+}
+.what-i-do h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 25px;
+}
+.what-i-do > p{
+    color: #757575;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.what-i-do-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+    gap: 20px;
+    text-align: left;
+}
+.box{
+    padding: 30px;
+    box-shadow: 2px 2px 15px rgba(128, 128, 128, 0.205);
+}
+.box img{
+width: 40px;
+margin-bottom: 25px;
+}
+.box h4{
+    color: #181818;
+    margin-bottom: 15px;
+}
